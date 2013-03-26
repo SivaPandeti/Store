@@ -11,6 +11,7 @@
 @interface ViewController : UIViewController
 @property (strong, nonatomic) IBOutlet UITextField *lbl;
 @property (strong, nonatomic) IBOutlet UITextField *lbl1;
+@property (strong, nonatomic) IBOutlet UITextField *db_feature;
 
 -(IBAction)clickTheButton:(id)sender;
 
