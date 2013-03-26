@@ -10,6 +10,7 @@
 
 @interface ViewController : UIViewController
 @property (strong, nonatomic) IBOutlet UITextField *lbl;
+@property (strong, nonatomic) IBOutlet UITextField *lbl1;
 
 -(IBAction)clickTheButton:(id)sender;
 
