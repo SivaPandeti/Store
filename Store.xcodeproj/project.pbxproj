@@ -19,6 +19,7 @@
 		75F020521701F23300F3A899 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75F020501701F23300F3A899 /* MainStoryboard_iPhone.storyboard */; };
 		75F020551701F23300F3A899 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75F020531701F23300F3A899 /* MainStoryboard_iPad.storyboard */; };
 		75F020581701F23300F3A899 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F020571701F23300F3A899 /* ViewController.m */; };
+		75F020601702251400F3A899 /* MapForIternery.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F0205F1702251400F3A899 /* MapForIternery.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,8 @@
 		75F020541701F23300F3A899 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		75F020561701F23300F3A899 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		75F020571701F23300F3A899 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		75F0205E1702251300F3A899 /* MapForIternery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapForIternery.h; sourceTree = "<group>"; };
+		75F0205F1702251400F3A899 /* MapForIternery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapForIternery.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +91,8 @@
 				75F020471701F23200F3A899 /* AppDelegate.h */,
 				75F020481701F23200F3A899 /* AppDelegate.m */,
 				75F020501701F23300F3A899 /* MainStoryboard_iPhone.storyboard */,
+				75F0205E1702251300F3A899 /* MapForIternery.h */,
+				75F0205F1702251400F3A899 /* MapForIternery.m */,
 				75F020531701F23300F3A899 /* MainStoryboard_iPad.storyboard */,
 				75F020561701F23300F3A899 /* ViewController.h */,
 				75F020571701F23300F3A899 /* ViewController.m */,
@@ -180,6 +185,7 @@
 				75F020451701F23200F3A899 /* main.m in Sources */,
 				75F020491701F23200F3A899 /* AppDelegate.m in Sources */,
 				75F020581701F23300F3A899 /* ViewController.m in Sources */,
+				75F020601702251400F3A899 /* MapForIternery.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

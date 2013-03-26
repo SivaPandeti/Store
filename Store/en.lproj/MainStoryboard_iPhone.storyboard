@@ -25,10 +25,17 @@
                                     <action selector="clickTheButton:" destination="2" eventType="touchUpInside" id="WwO-Fo-fEA"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Whats up!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7qV-Ul-TJ6">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="7qV-Ul-TJ6" firstAttribute="centerX" secondItem="ZFy-Bc-JFu" secondAttribute="centerX" type="default" id="Iip-Oi-urc"/>
                             <constraint firstItem="ZFy-Bc-JFu" firstAttribute="top" secondItem="3" secondAttribute="top" constant="144" id="bEH-e6-yxt"/>
+                            <constraint firstItem="7qV-Ul-TJ6" firstAttribute="top" secondItem="3" secondAttribute="top" constant="247" id="cWJ-E5-dm7"/>
                             <constraint firstItem="ZFy-Bc-JFu" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="gef-td-Lwq"/>
                         </constraints>
                     </view>
